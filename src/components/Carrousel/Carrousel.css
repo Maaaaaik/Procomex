@@ -1,0 +1,16 @@
+.MainCarrousel {
+    display: flex;
+}
+
+.card-container {
+    display: flex;
+    width: 100vw;
+}
+
+.card {
+    flex-grow: 1;
+    height: 500px;
+    background-size: cover;
+    backdrop-filter: blur(40px);
+    z-index: 1;
+}
