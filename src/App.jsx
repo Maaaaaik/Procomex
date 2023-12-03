@@ -3,6 +3,7 @@ import { motion, useAnimation } from 'framer-motion';
 import Navbar from "../src/components/Navbar/Navbar.jsx";
 import Carrousel from "./components/Carrousel/Carrousel.jsx";
 import LoadingScreen from './components/LoadingScreen/Loading.jsx';
+import './styles.css'
 
 
 
@@ -34,10 +35,10 @@ const App = () => {
       {loading ? (
         <LoadingScreen />
       ) : (
-        <motion.div>
-          <Navbar logoRef={logoRef} />
+        <>
+          <Navbar />
           <Carrousel />
-        </motion.div>
+        </>
       )}
     </div>
   );

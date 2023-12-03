@@ -19,7 +19,7 @@ const Carrousel = () => {
             width: "800px"
         },
         collapsed: {
-            width: "100px"
+            width: "200px"
         }
     };
     const images = [service1, service2, service3, service4, service5];
@@ -58,10 +58,15 @@ const Carrousel = () => {
                         }}
                     >
                         <div className="card-content">
-                            <div className="card-footer">
+                            <motion.div
+                                className="card-footer"
+                                initial={{ opacity: 0 }}
+                                animate={index === isOnHover ? { opacity: 1 } : { opacity: 0 }}
+                                transition={{ duration: 0.8 }}
+                            >
                                 {index === isOnHover && <h2>{titles[index]}</h2>}
                                 {index === isOnHover && <p>{descriptions[index]}</p>}
-                            </div>
+                            </motion.div>
                         </div>
                     </motion.div>
                 ))}

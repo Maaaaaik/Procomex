@@ -1,0 +1,19 @@
+@font-face {
+    font-family: MonserratRegular;
+    src: 'Front/Procomex/src/assets/fonts/Montserrat-Regular.ttf';
+}
+
+@font-face {
+    font-family: MonserratBlack;
+    src: 'Front/Procomex/src/assets/fonts/Montserrat-Black.ttf';
+}
+
+@font-face {
+    font-family: MonserratBold;
+    src: 'Front/Procomex/src/assets/fonts/Montserrat-Bold.ttf';
+}
+
+body {
+    font-family: 'MonserratRegular',
+        sans-serif;
+}

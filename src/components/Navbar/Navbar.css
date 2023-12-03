@@ -19,33 +19,3 @@
     margin-right: auto;
     padding-left: 1.5rem;
 }
-
-.loading-screen {
-    width: 100vw;
-    height: 100vh;
-    /* Cambiado a 100vh */
-    background-color: #e94e1b;
-
-    position: fixed;
-    /* Cambiado a fixed */
-    top: 0;
-    /* Asegura que esté en la parte superior de la ventana */
-    left: 0;
-    /* Asegura que esté en la parte izquierda de la ventana */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 99999;
-}
-
-.logo {
-    max-width: 50%;
-    position: absolute;
-    z-index: 99;
-    /* Ajusta según sea necesario */
-}
-
-.logo-on-navbar {
-    z-index: 99;
-    position: relative
-}
