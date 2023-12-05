@@ -64,8 +64,8 @@ const Carrousel = () => {
                                 animate={index === isOnHover ? { opacity: 1 } : { opacity: 0 }}
                                 transition={{ duration: 0.8 }}
                             >
-                                {index === isOnHover && <h2>{titles[index]}</h2>}
-                                {index === isOnHover && <p>{descriptions[index]}</p>}
+                                {index === isOnHover && <h2 className="black">{titles[index]}</h2>}
+                                {index === isOnHover && <p className="bold">{descriptions[index]}</p>}
                             </motion.div>
                         </div>
                     </motion.div>

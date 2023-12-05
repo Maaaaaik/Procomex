@@ -13,6 +13,18 @@
     src: 'Front/Procomex/src/assets/fonts/Montserrat-Bold.ttf';
 }
 
+.bold {
+    font-family: "MonserratBold",
+        sans-serif;
+    ;
+}
+
+.black {
+    font-family: "MonserratBlack",
+        sans-serif;
+    ;
+}
+
 body {
     font-family: 'MonserratRegular',
         sans-serif;

@@ -15,8 +15,7 @@
     flex-grow: 1;
     height: 450px;
     background-size: cover;
-    backdrop-filter: saturate(90%);
-    backdrop-filter: brightness(50%);
+
 }
 
 .card-footer {
@@ -24,14 +23,9 @@
     user-select: none;
     height: fit-content;
     z-index: 10000;
-    backdrop-filter: saturate(90%);
-    backdrop-filter: brightness(50%);
+
 }
 
-.card-content {
-    backdrop-filter: saturate(90%);
-    backdrop-filter: brightness(50%);
-}
 
 .card-footer p {
     color: white;
